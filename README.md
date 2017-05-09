@@ -55,6 +55,10 @@ GitHub OAuth token, used to avoid GitHub API rate limiting errors when building 
 
 The executable name or full path to the PHP executable. This is defaulted to `php` if you don't override the variable.
 
+You may change the installer url, where the composer will be downloaded from.
+
+    composer_installer_url: https://getcomposer.org/installer
+
 ## Dependencies
 
 None (but make sure you've installed PHP; the `geerlingguy.php` role is recommended).
